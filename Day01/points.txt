@@ -1,0 +1,80 @@
+
+fun(1, 2, 3, 4, 5, empid = "192", empname="Jack")
+
+
+https://pythontutor.com/visualize.html#mode=edit
+
+pass by value
+-------------
+
+pass by reference
+-----------------
+
+immutable objects
+-----------------
+strings, tuples
+
+mutable
+-------
+list, dictionary, set
+
+Comprehension
+-------------
+
+
+Scope of a variable
+-------------------
+1. local scope (lexical in nature)
+
+2. Global scope
+
+3. non local scope
+
+
+Decorator
+---------
+1. class methods
+2. static methods
+3. abstractmethod
+
+from functools import total_ordering
+
+@total_ordering
+class Employee:
+
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def __eq__(self):       # it works for not equal to also
+        return self.salary = other.salary
+
+    def __gt__(self):       # it works for less than also
+        returb self.salary > other.salary
+
+
+emp1 = Employee("Ben",  10000)
+emp2 = Employee("Kevin", 20000)
+
+print(emp1 == emp2)
+print(emp1 > emp2)
+
+print(emp1 >= emp2)
+
+-------------------------------------------
+
+__iter__ = double underscore iter
+
+dunder iter method - magic methods
+
+
+
+
+
+
+
+
+
+
+
+
