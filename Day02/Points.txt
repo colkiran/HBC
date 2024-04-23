@@ -1,0 +1,46 @@
+
+Locality of Reference
+---------------------
+Numpy arrays are stored in continous memory location unlike lists, hence its faster compared to lists
+
+    CO  C1  C2
+R0   1   2   3
+R1   4   5   6
+R2   7   8   9
+
+Numpy
+-----
+ndim
+dtype
+size
+shape
+itemsize
+data
+
+
+Broadcasting
+------------
+it happens in C than python
+
+
+Rules
+-----
+the arrays have same shape
+
+the arrays have the same number of dimensions and the length of each dimension is either of common length 1
+
+if the array has different number of dimensions then the array with fewer dimensions can have its shape prepended
+
+
+Pandas
+------
+Stepping stone for ML / AI
+
+found in the year 2008
+
+Dataframe - import data from different sources - CSV, EXCEL, JSON, XML, Database
+
+Cleanse the data - remove unnecessary rows and columns
+
+Implement some algorithm, formula to get the data into a specific shape
+
