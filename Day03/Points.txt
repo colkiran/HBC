@@ -1,0 +1,32 @@
+
+GET
+
+http://127.0.0.1:5000/login?nm=Jack&pwd=abcd12#
+DB          library
+---         -------
+mysql -     pymysql
+
+Oracle -    cx_oracle
+
+postgres -  cycopg2
+
+Mock Database
+sqlite3
+
+-------------------------------------------------------------------------
+
+PANDAS
+------
+Majorly used to perform analytics on given data.
+
+1. Data Series
+    a. list
+    b. dict
+    c. scalar value
+
+2. Data Frame
+
+loc - labels or column names
+
+iloc - numbers or indexes
+
